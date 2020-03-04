@@ -1,0 +1,6 @@
+**/node_modules
+package-lock.json
+todo
+**/.DS_Store
+src/Database/fbconf.js
+src/Database/iotbanana.json

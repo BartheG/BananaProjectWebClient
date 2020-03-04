@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+    webapp:
+        build:
+          context: ./
+          dockerfile: Dockerfile
+        image: webapp:latest
+        container_name: webapp
+        ports:
+            - "3030:3030"
+        expose:
+            - "3030"
+        restart: always
